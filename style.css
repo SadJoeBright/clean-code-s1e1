@@ -33,6 +33,7 @@
   flex-grow: 1;
 }
 .task-row-wrapper {
+  padding: 20px 0 0;
   display: flex;
 }
 .task-list {
