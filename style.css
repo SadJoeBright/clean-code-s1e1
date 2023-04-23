@@ -1,28 +1,28 @@
 /* Basic Style */
-.body-wrapper {
+.body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
-.top-content {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.top-content .top-content-img {
+.header__img {
   width: 100%;
 }
-.top-content .more-inf {
+.header__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .top-content {
+  .header {
     text-align: center;
   }
 }
-.main-content {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -41,7 +41,7 @@
   padding: 0px;
 }
 .list-item,
-.list-title {
+.section__title {
   list-style: none;
 }
 .input,
@@ -61,7 +61,7 @@
   color: #3a3a3a;
 }
 /* Heading */
-.list-title,
+.section__title,
 .label.new-task-label {
   color: #333;
   font-weight: 700;
